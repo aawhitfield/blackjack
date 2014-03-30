@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        </script>
+        
+        <script type="text/javascript" src="hit.js">
+        </script>
+        
+        <script type="text/javascript" src="stand.js">
+        </script>
+        
+        <script type="text/javascript">
+          
+          var numCardsDealt = 0;
+          var gamesWon = 0;
+          var dealerScore = 0;
+          var myScore = 0;
+          var dealtCards = new Array();
+          var roundOver = true;
+          var myTurnOver = false;
+          var busted = false;
+          
+              </script>
+      </head>
+      
+      <body>
+        <center>
+          <br/>
+          <h2>Hit 'Deal' to Start!</h2>
+          <form name="display">
+          <table style="background-color: #d3d3d3" border=1>
+          <tr>
+            <td>Score: </td>
+            <td>Dealer </td>
+            <td><input type="text" size=2 name="dealerScore"></td>
+            <td>Card(s): <textarea name="dealersCards" rows=4 cols=30></textarea></td>
+          </tr>
+          	
+          <tr>
+            <td><input type="text" size=2 name="gamesWon" value=0></td>
+            <td>Player</td>
+            <td><input type="text" size=2 name="myScore" value=0></td>
+            <td>Card(s): <textarea name="myCards" rows=4 cols=30></textarea></td>
+          </tr>
+          
+          <tr>
+            <td><input type="button" value="Deal" onClick="deal()" id="dealButton"></td>
+            <td colspan=3><input type="button" value="Stand" onClick="stand()" id="standButton">
+              <input type="button" value="Hit" onClick="hit()" id="hitButton"></td>
+          </tr>
+         </center></table>
+        </form>
+      	
+        <br />
+	  <div id="announcement">
+        
+	  </div>
+      <br />
+        <div id="me"><p>Me:</p>
+        
+      </div>    
+      
+      <div id="dealer"><p>Dealer:</p>
+        
+      </div>
+      </body>
+	</html>
