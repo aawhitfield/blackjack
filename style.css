@@ -1,0 +1,78 @@
+body
+{
+  background-image: url("http://www.ambrosiasw.com/assets/images/graphics_products/ipadwallpaper/wallpaper/Felt-Green.jpg")
+}
+
+h2 {
+  	color: yellow;
+    font-weight: lighter;
+    font-family: Verdana, sans-serif;
+}
+
+td {
+  text-align: center;
+}
+
+div
+{
+  
+}
+
+p
+{
+  color: yellow;
+  font-weight: lighter;
+  font-family: Verdana, sans-serif;
+}
+
+img
+{
+  height: 162px;
+  width: 100px;
+}
+
+#me
+{
+  width: 400px;
+  position:relative;
+  float: left;
+  left: 50px;
+  margin-right: 25px;
+}
+
+#dealer
+{
+  width: 400px;
+  position: relative;
+  float: left;
+  left: 100px;
+  margin-left: 25px;
+}
+
+#hitButton
+{
+  background-image: url('http://www.chipsandgames.com/images/201-GR.png');
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: 0px;
+}
+
+#standButton
+{
+  background-image: url('http://www.chipsandgames.com/images/201-RD.png');
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: 0px;
+}
+
+#dealButton
+{
+  background-image: url('http://www.chipsandgames.com/images/201-BL.png');
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: 0px;
+}
+
