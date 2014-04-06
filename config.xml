@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <widget xmlns = "http://www.w3.org/ns/widgets"
+          xmlns:gap = "http://phonegap.com/ns/1.0"
+          id = "com.vector.BlackJack"
+          version = "1.0" >
+          
+  <gap:platform name="ios" />
+  <icon src="icon.png" />
+  <gap:splash src="splash.png" />
